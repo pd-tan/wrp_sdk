@@ -77,9 +77,9 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 	$<INSTALL_INTERFACE:include>
     PRIVATE src)
     
-if(NOT catkin_FOUND)
-    add_subdirectory(apps)
-endif()
+
+add_subdirectory(apps)
+
 
 # Add executables
 if(BUILD_TESTS)

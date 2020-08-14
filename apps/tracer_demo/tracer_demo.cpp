@@ -6,8 +6,7 @@
  * 
  * Copyright (c) 2019 Ruixiang Du (rdu)
  */
-
-#include "tracer_base/tracer_base.hpp"
+#include "wrp_sdk/platforms/tracer/tracer_base.hpp"
 
 using namespace westonrobot;
 
