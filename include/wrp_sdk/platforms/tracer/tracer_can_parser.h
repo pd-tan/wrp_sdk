@@ -17,7 +17,7 @@ extern "C" {
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "tracer_protocol/tracer_protocol.h"
+#include "wrp_sdk/platforms/tracer/tracer_protocol.h"
 
 #ifdef __linux__
 #include <linux/can.h>

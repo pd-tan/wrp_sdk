@@ -16,13 +16,12 @@
 #include <mutex>
 #include <functional>
 
-#include "async_io/async_can.hpp"
-#include "async_io/async_serial.hpp"
+#include "wrp_sdk/asyncio/async_can.hpp"
+#include "wrp_sdk/asyncio/async_serial.hpp"
 
-#include "tracer_protocol/tracer_protocol.h"
-#include "tracer_protocol/tracer_can_parser.h"
-
-#include "tracer_base/tracer_types.hpp"
+#include "wrp_sdk/platforms/tracer/tracer_protocol.h"
+#include "wrp_sdk/platforms/tracer/tracer_can_parser.h"
+#include "wrp_sdk/platforms/tracer/tracer_types.hpp"
 
 namespace westonrobot
 {
